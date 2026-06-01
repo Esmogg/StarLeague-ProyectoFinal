@@ -1,68 +1,140 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starleague - Inicio</title>
+    <title>Starleague</title>
 
     <link rel="icon" type="image/png" href="images/logo.png">
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
 
     <div class="contenedor">
 
         <header>
+            <button id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
             <div class="title">
-                Starleague
+                ☆ Starleague ☆
             </div>
         </header>
 
         <div class="contenido">
-
-                <aside>
-                <div class="divisor"></div>
+            <aside>
+                <div id="barraNavegacion">
                     <nav>
                         <ul>
-                            <li><a href="index.html" class="activo"><i class="fa-solid fa-house"></i>Inicio</a></li>
-                            <li><a href="torneos.html"><i class="fa-solid fa-trophy"></i>Torneos</a></li>
-                            <li><a href="equipos.html"><i class="fa-solid fa-users"></i>Equipos</a></li>
-                            <li><a href="partidas.html"><i class="fa-solid fa-gamepad"></i>Partidas</a></li>
+
+                            <li>
+                                <a class="activo" href="index.html">
+                                    <i class="fa-solid fa-house"></i>
+                                    Inicio
+                                </a>
+                            </li>
+
+                            <li class="menu-grupo">
+                                <div class="menu-padre">
+                                    <i class="fa-solid fa-trophy"></i>
+                                    Torneos
+                                </div>
+
+                                <ul class="submenu">
+                                    <li><a href="#">Ver Torneos</a></li>
+                                    <li><a href="#">Crear Torneo</a></li>
+                                    <li><a href="#">Inscribirse</a></li>
+                                    <li><a href="#">Ver Historial</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-grupo">
+                                <div class="menu-padre">
+                                    <i class="fa-solid fa-users"></i>
+                                    Equipos
+                                </div>
+
+                                <ul class="submenu">
+                                    <li><a href="#">Buscar Equipos</a></li>
+                                    <li><a href="#">Crear Equipo</a></li>
+                                    <li><a href="#">Perfil de Equipos</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-grupo">
+                                <div class="menu-padre">
+                                    <i class="fa-solid fa-gamepad"></i>
+                                    Partidas
+                                </div>
+
+                                <ul class="submenu">
+                                    <li><a href="#">Calendario</a></li>
+                                    <li><a href="#">Resultados</a></li>
+                                    <li><a href="#">Calificaciones</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-grupo">
+                                <div class="menu-padre">
+                                    <i class="fa-solid fa-user"></i>
+                                    Usuario
+                                </div>
+
+                                <ul class="submenu">
+                                    <li><a href="#">Perfil</a></li>
+                                    <li><a href="#">Iniciar Sesión</a></li>
+                                    <li><a href="#">Registrarse</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-newspaper"></i>
+                                    Noticias
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid fa-gear"></i>
+                                    Configuración
+                                </a>
+                            </li>
+
                         </ul>
                     </nav>
-                </aside>
-        
-        <main>
-            <section>
-                <h1>Contenido Principal</h1>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ad leo elit facilisis adipiscing iaculis dictumst aenean sed facilisis. Felis praesent dolor auctor finibus; tristique ornare netus maecenas. 
-                   Suscipit nam ornare ligula posuere ac velit maecenas. Adipiscing nibh magnis aliquam aliquam sociosqu non. Dapibus posuere ligula dictumst lacus amet bibendum. Sem tincidunt morbi bibendum convallis 
-                   maximus. Amet natoque nascetur sodales massa lacus maecenas feugiat orci.</p>
-            </section>
-            <section>
-                <h1>Otro Contenido</h1>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ad leo elit facilisis adipiscing iaculis dictumst aenean sed facilisis. Felis praesent dolor auctor finibus; tristique ornare netus maecenas. 
-                   Suscipit nam ornare ligula posuere ac velit maecenas. Adipiscing nibh magnis aliquam aliquam sociosqu non. Dapibus posuere ligula dictumst lacus amet bibendum. Sem tincidunt morbi bibendum convallis 
-                   maximus. Amet natoque nascetur sodales massa lacus maecenas feugiat orci.</p>
-            </section>
-            <section>
-                <h1>Otro Contenido</h1>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ad leo elit facilisis adipiscing iaculis dictumst aenean sed facilisis. Felis praesent dolor auctor finibus; tristique ornare netus maecenas. 
-                   Suscipit nam ornare ligula posuere ac velit maecenas. Adipiscing nibh magnis aliquam aliquam sociosqu non. Dapibus posuere ligula dictumst lacus amet bibendum. Sem tincidunt morbi bibendum convallis 
-                   maximus. Amet natoque nascetur sodales massa lacus maecenas feugiat orci.</p>
-            </section>
-            <section>
-                <h1>Otro Contenido</h1>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ad leo elit facilisis adipiscing iaculis dictumst aenean sed facilisis. Felis praesent dolor auctor finibus; tristique ornare netus maecenas. 
-                   Suscipit nam ornare ligula posuere ac velit maecenas. Adipiscing nibh magnis aliquam aliquam sociosqu non. Dapibus posuere ligula dictumst lacus amet bibendum. Sem tincidunt morbi bibendum convallis 
-                   maximus. Amet natoque nascetur sodales massa lacus maecenas feugiat orci.</p>
-            </section>
-        </main>
-	</div>
-        <footer>
-            © 2026 - Todos los derechos reservados.
-        </footer>
-</body>
-</html>
+                </div>
+            </aside>
+            <main>
+                <article>
+                    <h1>¿Que es?</h1>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ad leo elit facilisis adipiscing iaculis
+                        dictumst aenean sed facilisis. Felis praesent dolor auctor finibus; tristique ornare netus
+                        maecenas.
+                        Suscipit nam ornare ligula posuere ac velit maecenas. Adipiscing nibh magnis aliquam aliquam
+                        sociosqu non. Dapibus posuere ligula dictumst lacus amet bibendum. Sem tincidunt morbi bibendum
+                        convallis
+                        maximus. Amet natoque nascetur sodales massa lacus maecenas feugiat orci.</p>
+                </article>
+                <article>
+                    <h1>¿Como Funciona?</h1>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ad leo elit facilisis adipiscing iaculis
+                        dictumst aenean sed facilisis. Felis praesent dolor auctor finibus; tristique ornare netus
+                        maecenas.
+                        Suscipit nam ornare ligula posuere ac velit maecenas. Adipiscing nibh magnis aliquam aliquam
+                        sociosqu non. Dapibus posuere ligula dictumst lacus amet bibendum. Sem tincidunt morbi bibendum
+                        convallis
+                        maximus. Amet natoque nascetur sodales massa lacus maecenas feugiat orci.</p>
+                </article>
+                
+            </main>
+
+            <footer>
+                © 2026 - Todos los derechos reservados.
+            </footer>
+        >
