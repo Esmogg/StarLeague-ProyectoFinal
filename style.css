@@ -216,7 +216,9 @@ footer {
     bottom: 20px;
     right: 20px;
 
-    background-color: #3f3f3f;
+    background-color: var(--color-boton);
+    border: 1px var(--color-boton-border) solid;
+
     color: #e7e7e7;
     padding: 15px;
     border-radius: 15px;
