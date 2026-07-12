@@ -25,10 +25,10 @@ const catalogos = {
             tipoParticipante: "equipos"
         },
         {
-            id: "futbol",
-            nombre: "Fútbol",
+            id: "ajedrez",
+            nombre: "Ajedrez",
             categoria: "tradicional",
-            tipoParticipante: "equipos"
+            tipoParticipante: "individual"
         },
         {
             id: "tenis",
